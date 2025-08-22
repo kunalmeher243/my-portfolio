@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <mata charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
         <title>Kunal's Portfolio</title>
 
         <link rel="stylesheet" href="style.css">
@@ -165,6 +165,13 @@
                 ? 'rgba(10, 10, 10, 0.98)'
                 : 'rgba(10, 10, 10, 0.95)';
         });
+
+        function openCertificate(imgSrc) {
+            let popup = document.getElementById("popup");
+                let popupImg = document.getElementById("popup-img");
+                popupImg.src = imgSrc;
+                popup.style.display = "flex";
+        }
 
         function openPopup(imgSrc) {
             document.getElementById("popup-img").src = imgSrc;
