@@ -1,5 +1,4 @@
-
-            * {
+* {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
@@ -218,9 +217,10 @@
 
             .skills
                 {
+                    text-align: center;
                     padding: 5rem 5%;
                     background: var(--darker-bg);
-                    text-align: center;
+                   
                 }
 
             .skills-grid
@@ -582,5 +582,6 @@
                     }
             }
     
+
 
 
