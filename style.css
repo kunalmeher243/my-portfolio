@@ -220,6 +220,7 @@
                 {
                     padding: 5rem 5%;
                     background: var(--darker-bg);
+                    text-align: center;
                 }
 
             .skills-grid
@@ -288,6 +289,7 @@
                 {
                     padding: 5rem 5%;
                     background: var(--dark-bg);
+                    text-align: center;
                 }
 
             .projects-grid 
@@ -580,4 +582,5 @@
                     }
             }
     
+
 
